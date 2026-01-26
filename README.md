@@ -18,22 +18,22 @@ Labeling: Created custom descriptive IDs for specific job categories (e.g., "Dat
 ❓ Business Questions Answered
 I used SQL to answer the following 10 critical business questions:
 
-Salary Benchmarks: What is the average annual salary for each major Job Category?
+1 Salary Benchmarks: What is the average annual salary for each major Job Category?
 
-Work Environment: Is there a significant salary difference between Remote and On-site jobs?
+2 Work Environment: Is there a significant salary difference between Remote and On-site jobs?
 
-High-Value Roles: What are the top 10 highest-paying specific job titles in the dataset?
+3 High-Value Roles: What are the top 10 highest-paying specific job titles in the dataset?
 
-Market Demand: Which job category has the highest volume of total job postings?
+4 Market Demand: Which job category has the highest volume of total job postings?
 
-Location Hubs: Which geographic locations (States/Areas) have the most openings for Data Engineers?
+5 Location Hubs: Which geographic locations (States/Areas) have the most openings for Data Engineers?
 
-Degree Requirements: What percentage of high-paying jobs (>$100k) do not mention a degree requirement?
+6 Degree Requirements: What percentage of high-paying jobs (>$100k) do not mention a degree requirement?
 
-Platform Dominance: Which job search platforms (LinkedIn, Indeed, etc.) host the most data roles?
+7 Platform Dominance: Which job search platforms (LinkedIn, Indeed, etc.) host the most data roles?
 
-Benefits Analysis: How does the mention of Health Insurance correlate with the offered salary?
+8 Benefits Analysis: How does the mention of Health Insurance correlate with the offered salary?
 
-Schedule Flexibility: Which schedule type (Full-time vs. Contract) offers the highest average compensation?
+9 Schedule Flexibility: Which schedule type (Full-time vs. Contract) offers the highest average compensation?
 
-Geographic Sweet Spots: Which U.S. locations offer the highest average salary for Data Analysts specifically?
+10 Geographic Sweet Spots: Which U.S. locations offer the highest average salary for Data Analysts specifically?

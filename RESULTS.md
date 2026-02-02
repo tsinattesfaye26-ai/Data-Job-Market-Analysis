@@ -1,4 +1,4 @@
-1 Benchmarks: What is the average annual salary for each major Job Category?
+#1 Benchmarks: What is the average annual salary for each major Job Category?
 **Answer:**
 Job Category	| Average Annual Pay	| Number of Postings
 Data Analyst | 	87499.19 | 	982
@@ -20,7 +20,7 @@ Cloud Engineer	| 119575  |	4
 - Engineering-focused roles generally offer higher average salaries than analysis-focused roles.
 - Business Analyst roles show relatively low demand in this dataset, which may reflect platform-specific hiring trends.
 
-2 Work Environment: Is there a significant salary difference between Remote and On-site jobs?
+#2 Work Environment: Is there a significant salary difference between Remote and On-site jobs?
 
 Work Environment	| Total Jobs	| Average Annual Pay
 On-site/Office| 2533	| 111541.81

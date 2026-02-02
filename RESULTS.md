@@ -1,4 +1,4 @@
-<img width="289" height="61" alt="image" src="https://github.com/user-attachments/assets/a7da56b1-e8ac-40dd-aa0b-41e10375c246" /><img width="289" height="61" alt="image" src="https://github.com/user-attachments/assets/e1e7abe1-d951-4509-8124-89edf88ca924" /> #1 Salary Benchmarks: What is the average annual salary for each major Job Category?
+1 Benchmarks: What is the average annual salary for each major Job Category?
 **Answer:**
 Job Category	| Average Annual Pay	| Number of Postings
 Data Analyst | 	87499.19 | 	982
@@ -35,17 +35,24 @@ Remote	| 569	| 129105.92
 3 High-Value Roles: What are the top 10 highest-paying specific job titles in the dataset?
 
 job_title_short |	total_postings
-Data Analyst	| 982
-Data Scientist|	869
-Data Engineer	522
-Senior Data Scientist	236
-Senior Data Analyst	191
-Senior Data Engineer	145
-Machine Learning Engineer	74
-Business Analyst	45
-Software Engineer	34
-Cloud Engineer	4
-<img width="216" height="221" alt="image" src="https://github.com/user-attachments/assets/0f962ca6-0098-472c-ad5c-4b2e9e9a09bf" />
+Data Analyst	 | 982
+Data Scientist  |	869
+Data Engineer	| 522
+Senior Data Scientist  |	236
+Senior Data Analyst	  | 191
+Senior Data Engineer |	145
+Machine Learning Engineer |	74
+Business Analyst	| 45
+Software Engineer	| 34
+Cloud Engineer |	4
+**Insights:**
+
+- Data Analyst roles have the highest number of postings (982), indicating strong demand for entry-level and mid-level positions.
+- Senior positions are significantly fewer, showing higher skill requirements and competition.
+- Specialized technical roles like Machine Learning Engineer, Software Engineer, and Cloud Engineer have very few postings, reflecting niche requirements.
+- Business Analyst roles are limited in number, suggesting fewer opportunities or platform-specific differences.
+- Career strategy: start with high-volume roles (Data Analyst, Data Scientist) and target specialized or senior roles as experience grows.
+
 
 4 Market Demand: Which job category has the highest volume of total job postings?
 

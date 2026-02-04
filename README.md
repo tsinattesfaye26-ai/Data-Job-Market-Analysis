@@ -1,7 +1,7 @@
-#🛒 Consumer Behavior Analysis (100k Rows)
+# 🛒 Consumer Behavior Analysis (100k Rows)
 This project is a comprehensive SQL-based data analysis exploring a dataset of 100,000 consumer transactions. The analysis focuses on understanding customer demographics, purchasing patterns, and the effectiveness of loyalty programs to drive revenue growth.
 
-#🛠️ Data Cleaning & Quality Assurance
+# 🛠️ Data Cleaning & Quality Assurance
 To ensure the integrity of the 100,000 records, I implemented the following SQL "data hygiene" steps:
 
 Deduplication: Identified and removed duplicate transaction records.
@@ -12,7 +12,7 @@ Outlier Detection: Filtered for logical errors (e.g., impossible ages or negativ
 
 Null Handling: Verified key columns like Purchase_Amount_USD contained no missing values.
 
-#❓ Business Questions Answered
+# ❓ Business Questions Answered
 I used complex SQL queries (including Window Functions and Case Logic) to solve 15 critical business questions, categorized into:
 
 ## 1. Demographics & Geography

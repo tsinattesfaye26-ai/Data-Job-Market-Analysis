@@ -1,39 +1,38 @@
-# Data Job Market Analysis
-📌 Project Description
-This project is a comprehensive SQL-based data analysis exploring the global job market for data professionals. Using a raw dataset of over 3100 job postings, I performed extensive data cleaning, standardization, and exploratory analysis to uncover trends in salaries, remote work, and hiring platforms.
+🛒 Consumer Behavior Analysis (100k Rows)
+This project is a comprehensive SQL-based data analysis exploring a dataset of 100,000 consumer transactions. The analysis focuses on understanding customer demographics, purchasing patterns, and the effectiveness of loyalty programs to drive revenue growth.
 
-The goal was to move beyond raw numbers to provide actionable insights for job seekers and recruiters in the data space.
+🛠️ Data Cleaning & Quality Assurance
+To ensure the integrity of the 100,000 records, I implemented the following SQL "data hygiene" steps:
 
-🛠️ Data Cleaning Steps
-Before analysis, I performed the following "data hygiene" steps to ensure accuracy:
+Deduplication: Identified and removed duplicate transaction records.
 
-Unique Identification: Added a job_id (Primary Key) to uniquely identify each posting.
+Standardization: Cleaned text fields for Category, Location, and Gender to ensure consistent grouping.
 
-Salary Standardization: Converted all salary data into a single standardized_salary column for consistent comparison.
+Outlier Detection: Filtered for logical errors (e.g., impossible ages or negative purchase amounts).
 
-Filtering: Removed records with missing or zero-value salaries to prevent skewing the averages.
-
-Labeling: Created custom descriptive IDs for specific job categories (e.g., "Data Analyst 1").
+Null Handling: Verified key columns like Purchase_Amount_USD contained no missing values.
 
 ❓ Business Questions Answered
-I used SQL to answer the following 10 critical business questions:
+I used complex SQL queries (including Window Functions and Case Logic) to solve 15 critical business questions, categorized into:
 
-1 Salary Benchmarks: What is the average annual salary for each major Job Category?
+1. Demographics & Geography
+Age Distribution: Identified which age groups drive the highest total revenue.
 
-2 Work Environment: Is there a significant salary difference between Remote and On-site jobs?
+Regional Performance: Mapped out high-value geographic locations and identified hubs of frequent shoppers.
 
-3 High-Value Roles: What are the top 10 highest-paying specific job titles in the dataset?
+2. Product & Seasonal Trends
+Inventory Insights: Determined top-selling products by volume and revenue-generating categories.
 
-4 Market Demand: Which job category has the highest volume of total job postings?
+Seasonal Impact: Analyzed how shopping behavior shifts between Summer, Winter, Spring, and Fall.
 
-5 Location Hubs: Which geographic locations (States/Areas) have the most openings for Data Engineers?
+Preference Matrix: Discovered the most popular color and size combinations for specific product lines.
 
-6 Degree Requirements: What percentage of high-paying jobs (>$100k) do not mention a degree requirement?
+3. Loyalty & Marketing Effectiveness
+Subscription Value: Compared the spending habits and purchase frequency of subscribed vs. non-subscribed customers.
 
-7 Platform Dominance: Which job search platforms (LinkedIn, Indeed, etc.) host the most data roles?
+Promo Analysis: Evaluated the ROI of discounts and promo codes on total basket size.
 
-8 Benefits Analysis: How does the mention of Health Insurance correlate with the offered salary?
+Predictive Modeling: Built a "Repeat Purchase Likelihood" score based on historical frequency and spend.
 
-9 Schedule Flexibility: Which schedule type (Full-time vs. Contract) offers the highest average compensation?
-
-10 Geographic Sweet Spots: Which U.S. locations offer the highest average salary for Data Analysts specifically?
+4. Customer Satisfaction
+Rating Correlation: Analyzed how Review_Rating impacts customer lifetime value and repeat purchase rates.
